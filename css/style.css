@@ -275,50 +275,78 @@
             margin: 10px auto;
             font-size: 18px; }
 
-#blog .holder {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-around; }
-  #blog .holder .blog-container ul li {
-    list-style: none;
+#work {
+  margin: 30px auto; }
+  #work .holder {
+    width: 80%;
+    margin: 0 auto;
     display: flex;
-    margin: 30px auto; }
-    #blog .holder .blog-container ul li img {
-      width: 35%;
-      height: 35vh; }
-    #blog .holder .blog-container ul li .box {
+    justify-content: space-around; }
+    #work .holder .work-container {
+      display: grid;
+      grid-template-columns: 31% 31% 31%;
+      grid-gap: 10px; }
+      #work .holder .work-container a img {
+        width: 100%;
+        height: 30vh; }
+    #work .holder .header-holder {
       width: 30%;
-      height: 30vh;
-      background-color: #222222;
-      position: relative;
-      left: -54px;
-      top: 15px; }
-      #blog .holder .blog-container ul li .box .box-holder {
-        width: 90%;
-        margin: 10px auto; }
-      #blog .holder .blog-container ul li .box h4 {
-        color: #e5b200; }
-      #blog .holder .blog-container ul li .box .date {
-        color: #61605f;
-        padding: 10px 0 10px 0;
-        border-bottom: 1px solid #61605f; }
-        #blog .holder .blog-container ul li .box .date .fa {
-          padding: 0 15px 0 0; }
-      #blog .holder .blog-container ul li .box p {
-        color: #61605f;
-        padding-top: 10px; }
-  #blog .holder .header-holder {
-    width: 30%;
-    align-self: flex-end;
-    margin-bottom: 40vh; }
-    #blog .holder .header-holder .section-title {
-      font-size: 25px;
-      text-transform: uppercase;
-      color: black; }
-      #blog .holder .header-holder .section-title span {
-        display: block;
-        color: #e5b200; }
+      align-self: flex-end;
+      margin-bottom: 20vh; }
+      #work .holder .header-holder .section-title {
+        font-size: 25px;
+        text-transform: uppercase;
+        color: black; }
+        #work .holder .header-holder .section-title span {
+          display: block;
+          color: #e5b200; }
+
+#blog {
+  margin: 30px auto; }
+  #blog .holder {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around; }
+    #blog .holder .blog-container ul li {
+      list-style: none;
+      display: flex;
+      margin: 30px auto; }
+      #blog .holder .blog-container ul li img {
+        width: 35%;
+        height: 35vh; }
+      #blog .holder .blog-container ul li .box {
+        width: 30%;
+        height: 30vh;
+        background-color: #222222;
+        position: relative;
+        left: -54px;
+        top: 15px; }
+        #blog .holder .blog-container ul li .box .box-holder {
+          width: 90%;
+          margin: 10px auto; }
+        #blog .holder .blog-container ul li .box h4 {
+          color: #e5b200; }
+        #blog .holder .blog-container ul li .box .date {
+          color: #61605f;
+          padding: 10px 0 10px 0;
+          border-bottom: 1px solid #61605f; }
+          #blog .holder .blog-container ul li .box .date .fa {
+            padding: 0 15px 0 0; }
+        #blog .holder .blog-container ul li .box p {
+          color: #61605f;
+          padding-top: 10px; }
+    #blog .holder .header-holder {
+      width: 30%;
+      align-self: flex-end;
+      margin-bottom: 40vh; }
+      #blog .holder .header-holder .section-title {
+        font-size: 25px;
+        text-transform: uppercase;
+        color: black; }
+        #blog .holder .header-holder .section-title span {
+          display: block;
+          color: #e5b200; }
 
 #footer {
   background-color: black; }
@@ -339,7 +367,9 @@
       align-self: center; }
       #footer .footer-holder address h3 {
         color: white;
-        margin: 20px auto; }
+        margin: 20px auto;
+        font-size: 25px;
+        text-transform: capitalize; }
       #footer .footer-holder address a {
         color: white;
         text-decoration: none; }
