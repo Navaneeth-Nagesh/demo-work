@@ -32,7 +32,7 @@
             color: #e5b200; }
 
 #upfold {
-  background-image: url("/images/upfold-bg.jpg");
+  background-image: url("../images/upfold-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 88vh; }
