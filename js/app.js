@@ -1,3 +1,6 @@
+/*jslint browser: true*/
+/*global $, jQuery, alert*/
+
 // scroll functionality
 
 $(window).scroll(function() {    
