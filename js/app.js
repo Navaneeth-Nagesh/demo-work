@@ -16,6 +16,7 @@ $(window).scroll(function() {
 
 
 //smooth-scrolling
+
 $('a[href*="#"]')
   .not('[href="#"]')
   .not('[href="#0"]')
