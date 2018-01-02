@@ -327,6 +327,7 @@
     justify-content: space-around;
     width: 80%;
     margin: 0 auto;
+    border-bottom: 1px solid #61605f;
     height: 30vh; }
     #footer .footer-holder .logo-container {
       margin: 0 25px;
@@ -368,9 +369,6 @@
           text-align: center;
           position: relative;
           top: 8px; }
-  #footer hr {
-    width: 80%;
-    margin: 0 auto; }
   #footer small {
     color: white;
     text-align: center;

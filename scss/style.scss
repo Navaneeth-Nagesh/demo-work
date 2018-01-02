@@ -438,6 +438,7 @@ $dark-bg-color: #222222;
         justify-content: space-around;
         width: 80%;
         margin: 0 auto;
+        border-bottom: 1px solid $icons-color;
         height: 30vh;
         .logo-container{
             margin: 0 25px;
@@ -492,10 +493,6 @@ $dark-bg-color: #222222;
                 }
             }
         }
-    }
-    hr{
-        width: 80%;
-        margin: 0 auto;
     }
     small{
         color: white;
